@@ -19,7 +19,7 @@ $ pip install -r requirements.txt
 Start your application using streamlit as follows:
 
 ```shell
-$ streamlit run apps/Main.py
+$ streamlit run app/Main.py
 ```
 
 Then, open the default URL http://localhost:8501 in your browser.
