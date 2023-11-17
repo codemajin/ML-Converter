@@ -23,3 +23,19 @@ $ streamlit run app/Main.py
 ```
 
 Then, open the default URL http://localhost:8501 in your browser.
+
+## Using Docker Container
+
+First, build the Docker image as follows:
+
+```shell
+$ docker build -t <Your-Container-Name>:latest .
+```
+
+Next, start the container as follows:
+
+```shell
+$ docker run -p 8501:8501 <Your-Container-Name>:latest 
+```
+
+Then, open the default URL http://localhost:8501 in your browser.
